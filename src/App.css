@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(/public/img/NikeHero.jpg);
+  /* background-color: #fff; */
+  background-size: cover;
+  color: #fff;
+}
+
+.desactivarLink{
+  text-decoration: none;
+  color: #000;
+}
+
+.messageDanger{
+  color: red;
+}
+
+.containerForm{
+  background-color: rgba(rgba(255, 0, 0, 0.525), rgba(0, 128, 0, 0.516), rgba(0, 0, 255, 0.493), alpha);
+}
+
+.contenedorPrincipal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.contenedorPrincipal div{
+  width: 300px;
+}
+
+.titlePage{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.APIalert{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cardContainer{
+  background-color: #000;
+  color: #fff;
+  transition: 500ms;
+}
+
+.contenedorPrincipal:hover > :not(:hover){
+  opacity: .5;
+}
+
+.cardContainer:hover{
+  transform: scale(1.1);
+}
